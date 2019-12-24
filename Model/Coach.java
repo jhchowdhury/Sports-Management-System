@@ -1,6 +1,6 @@
 import Model.*;
 
-public class Coach {
+public class Coach extends Profile {
     private String form;
     private GamePlan gamePlan;
     public Coach() {
