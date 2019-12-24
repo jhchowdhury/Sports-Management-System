@@ -12,4 +12,10 @@ public abstract class Transportation implements FacilitySystem {
         this.busID = busID;
         this.driverContacts = driverContacts;
     }
+    public void setDriverContacts(String[] driverContacts) {
+        this.driverContacts = driverContacts;
+    }
+    public String[] getDriverContacts() {
+        return driverContacts;
+    }
 }
