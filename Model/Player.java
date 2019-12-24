@@ -1,6 +1,6 @@
 import Model.*;
 
-public class Player {
+public class Player extends Profile{
     private String position;
     private String role;
     private String condition;
